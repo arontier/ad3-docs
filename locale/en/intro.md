@@ -14,4 +14,4 @@ Or **try Signing-up immediately** with **[ad3.io](https://ad3.io)**.
 
 ### create an account
 
-![Sign Up Page](@site/src/img/signUpPage.png)
+![Sign Up Page](/img/signUpPage.png)
