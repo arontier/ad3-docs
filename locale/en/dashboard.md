@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Dashboard???#@@#!12312
+# Dashboard
 
 ## Recent Jobs
 

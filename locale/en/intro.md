@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Introduction~!~!~!~!~!~333
+# Introduction
 
 Let's discover **AD3 in less than 5 minutes**.
 
