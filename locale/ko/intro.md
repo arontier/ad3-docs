@@ -12,6 +12,6 @@ Get started by **creating a new account**.
 
 Or **try Signing-up immediately** with **[ad3.io](https://ad3.io)**.
 
-### create an account
+### 계정 생성하기
 
 ![Sign Up Page](/img/signUpPage.png)
