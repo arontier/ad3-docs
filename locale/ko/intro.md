@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# 인트로
 
 Let's discover **AD3 in less than 5 minutes**.
 
