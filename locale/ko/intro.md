@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Let's discover **AD3 in less than 5 minutes**.
 
-## Getting Started
+## 시작하기
 
 Get started by **creating a new account**.
 
