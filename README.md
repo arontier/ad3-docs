@@ -12,6 +12,8 @@ AD3 사용자 **튜토리얼 페이지** 작성을 위한 repository 입니다.
 
 ## 디렉토리 및 문서 구조
 
+### 디렉토리 구조
+
 ```bash
 ad3-docs
 ├── img
@@ -39,4 +41,30 @@ ad3-docs
                 ├── _category_.json
                 ├── create-a-job.md
                 └── output-report.md
+```
+- `/img/` - `.md`에 쓰일 이미지 파일들
+- `/locale/` - 지원 언어 별로 구분 된 AD3 튜토리얼입니다. 디렉토리 구조가 그대로 튜토리얼 사이트의 sidebar가 됩니다. **모든 언어가 같은 디렉토리 구조를 가져야 합니다.**
+
+### Sidebar 관리
+
+동일레벨의 sidebar 사이의 display 순서는 sidebar position을 지정하여 정합니다.
+
+- `.md` 파일의 경우:
+  - 파일 상단에 `sidebar_position` 값을 지정합니다. (본문에는 드러나지 않습니다.)
+```md
+---
+sidebar_position: 1
+---
+# Tutorial Intro
+...
+```
+  - `sidebar_position` 아래의 최상단의 header가 sidebar label이 됩니다.
+
+- directory의 경우:
+  - `_category_.json` 파일 아래 sidebar position과 label을 작성합니다.
+```json
+{
+  "label": "Discovery",
+  "position": 3,
+}
 ```
